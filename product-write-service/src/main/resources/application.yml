@@ -1,1 +1,10 @@
-spring.application.name=product-write-service
+server:
+  port: 8081
+
+spring:
+  application:
+    name: product-write-service
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27001/product
